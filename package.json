@@ -2,9 +2,14 @@
   "name": "rich-draftjs-editor",
   "version": "0.1.1",
   "description": "An example implementation of draftjs editor",
-  "main": "./dist",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryapapap/draft-editor.git"
+  },
+  "main": "./dist/rich-editor.js",
   "scripts": {
-    "build": "babel src/ --out-dir dist/"
+    "build": "babel src/ --out-dir dist/",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "draftjs",
@@ -15,7 +20,7 @@
     "react-components"
   ],
   "author": "Ryan Patterson",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "draft-js": "^0.9.1",
     "react": "^15.3.2",
