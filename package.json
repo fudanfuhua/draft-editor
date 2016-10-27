@@ -1,6 +1,6 @@
 {
   "name": "rich-draftjs-editor",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An example implementation of draftjs editor",
   "repository": {
     "type": "git",
