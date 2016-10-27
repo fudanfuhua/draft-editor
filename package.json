@@ -1,0 +1,32 @@
+{
+  "name": "rich-draftjs-editor",
+  "version": "0.1.1",
+  "description": "An example implementation of draftjs editor",
+  "main": "./dist",
+  "scripts": {
+    "build": "babel src/ --out-dir dist/"
+  },
+  "keywords": [
+    "draftjs",
+    "draft-js",
+    "editor",
+    "rich-text",
+    "react",
+    "react-components"
+  ],
+  "author": "Ryan Patterson",
+  "license": "ISC",
+  "dependencies": {
+    "draft-js": "^0.9.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-modal": "^1.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}

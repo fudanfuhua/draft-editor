@@ -1,0 +1,36 @@
+.controls-root {
+  text-align: center;
+}
+
+.editor-controls,
+.super-editor-controls {
+  display: inline;
+}
+
+.editor-controls + .editor-controls::before {
+  content: '|';
+  padding: 0 10px;
+  color: lightgray;
+  font-size: x-large;
+}
+
+.styleButton {
+  font-size: large;
+  padding: 10px;
+  cursor: pointer;
+  color: dimgray;
+}
+
+.styleButton.active {
+  color: dodgerblue;
+}
+
+pre pre {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  text-align: center;
+}
