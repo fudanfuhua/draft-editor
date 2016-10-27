@@ -8,7 +8,7 @@
   },
   "main": "./dist/rich-editor.js",
   "scripts": {
-    "build": "babel src/ --out-dir dist/",
+    "build": "./node_modules/.bin/babel src/ --out-dir dist/",
     "prepublish": "npm run build"
   },
   "keywords": [
